@@ -1,0 +1,20 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    overflow: hidden;
+    /*link arkaplan taşmalarını engelliyor*/
+    height: 6rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+#navbar ul {
+    /*genel link ayarları.. alt çizgi, yan yana yazma, ortalama*/
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
