@@ -18,3 +18,11 @@ h1 {
     align-items: center;
     text-align: center;
 }
+
+#photograph .items {
+    flex-direction: column;
+}
+
+#photograph .items img {
+    padding-top: 1rem;
+}
