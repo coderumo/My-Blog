@@ -1,50 +1,48 @@
-.text-center {
-    text-align: center;
-}
-
-.heading-medium {
-    font-size: 1.5rem;
-}
-
-
-/*buttons*/
-
-.btn {
-    margin-top: 1rem;
-    padding: 0.5rem 1.5rem;
-    border-radius: 30px;
-    letter-spacing: 0.5px;
-}
-
-.btn-primary {
-    background-color: #8da8e4;
-}
-
-.btn-primary:hover {
-    color: #7293db;
-    background-color: #fff;
-    border: 0.5px solid #7293db;
-}
-
-.heading-big {
-    font-size: 1.75rem;
-    letter-spacing: 0.5px;
-    ;
-}
-
-.bg-purple {
-    background: #7293db;
-}
-
-.bg-light-purple {
-    background: #bcc7df;
-}
-
-.bg-light-yellow {
-    background: #a1a5ce;
-}
-
-.container {
-    max-width: 1800px;
-    margin: 0 auto;
-}
+    .text-center {
+        text-align: center;
+    }
+    
+    .heading-medium {
+        font-size: 1.5rem;
+    }
+    /*buttons*/
+    
+    .btn {
+        margin-top: 1rem;
+        padding: 0.5rem 1.5rem;
+        border-radius: 30px;
+        letter-spacing: 0.5px;
+    }
+    
+    .btn-primary {
+        background-color: #8da8e4;
+    }
+    
+    .btn-primary:hover {
+        color: #7293db;
+        background-color: #fff;
+        /*border: 0.5px solid #7293db;*/
+    }
+    
+    .heading-big {
+        font-size: 1.75rem;
+        letter-spacing: 0.5px;
+        ;
+    }
+    
+    .bg-purple {
+        background: #7293db;
+    }
+    
+    .bg-light-purple {
+        background: #bcc7df;
+    }
+    
+    .bg-light-yellow {
+        background: #a1a5ce;
+    }
+    
+    .container {
+        max-width: 1800px;
+        margin: 0 auto;
+    }

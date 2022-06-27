@@ -23,6 +23,27 @@ h1 {
     flex-direction: column;
 }
 
-#photograph .items img {
+#photograph .items .item img {
     padding-top: 1rem;
+}
+
+#navbar ul {
+    /*genel link ayarları.. alt çizgi, yan yana yazma, ortalama*/
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#navbar ul li a {
+    /*link ayarları.. birbirleri arasındaki mesafe*/
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+}
+
+#navbar ul li a:hover {
+    /*link arka plan ayarları.. renk, border*/
+    background: #bed7f3;
+    border-radius: 45px;
 }
