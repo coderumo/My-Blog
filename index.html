@@ -26,11 +26,13 @@
     <header class="bg-purple">
         <div class="container">
             <nav id="navbar">
-                <h1 class="heading-big"><i class="fa fa-camera"> RUMO'S BLOG</i></h1>
+                <h1 class="heading-big">
+                    <a href="#home"><i class="fa fa-camera"> RUMO'S BLOG</i></a>
+                </h1>
                 <ul>
                     <li><a href="#home">Ana Sayfa</a></li>
                     <li><a href="#photograph">Fotoğraflarım</a></li>
-                    <li><a href="#pictures">Resimlerim</a></li>
+                    <li><a href="#contact">İletişim</a></li>
                 </ul>
             </nav>
         </div>
@@ -41,27 +43,58 @@
             <h2 class="heading-big">Rumeysa Alkaya</h2>
             <p>Computer Engineer</p>
         </div>
-        <a href="#scmedia" class="btn btn-primary">İnstagram </a>
-        <a href="#scmedia2" class="btn btn-primary">Github </a>
     </section>
-    <section id="photograph" class="bg-light-yellow">
+    <section id="photograph" class="bg-light-ppurple">
         <h3 class="text-center">Fotoğraflarım</h3>
         <div class=" items">
             <div class="item">
                 <img src="images/me.jpg" width="150rem" height="200rem">
             </div>
             <div class="item">
-                <img src="images/pc.jpg" width="150rem" height="200rem">
+                <img src="images/atakum.jpeg" width="150rem" height="200rem">
             </div>
             <div class="item">
-                <img src="images/araba.jpg" width="150rem" height="200rem">
+                <img src="images/mezuniyet.jpeg" width="150rem" height="200rem">
             </div>
             <div class="item">
                 <img src="images/sahil.jpg" width="150rem" height="200rem">
             </div>
-
         </div>
     </section>
+
+    <footer id="contact" class="dark-purple">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center">Bana Ulaşın</h4>
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="İsim">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea name="message" id="message" class="form-control" rows="5" placeholder="Mesajınız..."></textarea>
+                </div>
+                <button type="submit" class="btn">Gönder</button>
+            </form>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/rrumeysalky/" target="_blank " title="İnstagram "><i class="fab fa-instagram "></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/eengiinaarr" target="_blank" title="Twitter"><i class="fab fa-twitter "></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/rumeysa-alkaya/" target="_blank" title="Linkedin"><i class="fab fa-linkedin "></i></a>
+                </li>
+                <li>
+                    <a href="https://www.github.com/coderumo/" target="_blank" title="Github"><i class="fab fa-github "></i></a>
+                </li>
+        </div>
+    </footer>
 </body>
 
 </html>

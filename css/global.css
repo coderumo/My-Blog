@@ -5,6 +5,14 @@
     .heading-medium {
         font-size: 1.5rem;
     }
+    
+    i {
+        color: rgb(117, 35, 73);
+    }
+    
+    i:hover {
+        opacity: 0.8;
+    }
     /*buttons*/
     
     .btn {
@@ -14,6 +22,10 @@
         letter-spacing: 0.5px;
     }
     
+    .btn:hover {
+        background-color: #c9cada;
+    }
+    
     .btn-primary {
         background-color: #8da8e4;
     }
@@ -21,13 +33,11 @@
     .btn-primary:hover {
         color: #7293db;
         background-color: #fff;
-        /*border: 0.5px solid #7293db;*/
     }
     
     .heading-big {
         font-size: 1.75rem;
         letter-spacing: 0.5px;
-        ;
     }
     
     .bg-purple {
@@ -38,11 +48,31 @@
         background: #bcc7df;
     }
     
-    .bg-light-yellow {
+    .bg-light-ppurple {
         background: #a1a5ce;
     }
     
-    .container {
+    .dark-purple {
+        background-color: #7293DB;
+    }
+    
+    .bg .container {
         max-width: 1800px;
         margin: 0 auto;
+    }
+    
+    .form-group {
+        padding: 0.25rem 0;
+    }
+    
+    .form-group label {
+        display: block;
+    }
+    
+    .form-control {
+        width: 100%;
+        padding: 0.25rem;
+        font-size: 1rem;
+        resize: none;
+        border-radius: 0.25rem;
     }

@@ -1,90 +1,118 @@
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    h1 {
-        margin-left: 2rem;
-    }
-    
-    a {
-        text-decoration: none;
-        color: rgb(38, 47, 48);
-    }
-    
-    html {
-        font-family: "Open Sans", sans-serif;
-    }
-    /*navbar section*/
-    
-    #navbar {
-        color: rgb(114, 40, 121);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 4.5rem;
-    }
-    
-    #navbar ul {
-        /*genel link ayarları.. alt çizgi, yan yana yazma, ortalama*/
-        list-style-type: none;
-        display: flex;
-        align-items: center;
-        margin-right: 2rem;
-    }
-    
-    #navbar ul li a {
-        /*link ayarları.. birbirleri arasındaki mesafe*/
-        padding: 0.75rem;
-    }
-    
-    #navbar ul li a:hover {
-        /*link arka plan ayarları.. renk, border*/
-        background: #bed7f3;
-        border-radius: 45px;
-    }
-    /*home section*/
-    
-    #home {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 2rem;
-        /*sectiona padding veriyor*/
-        /*border-bottom: 2px solid #d4c64a;*/
-    }
-    
-    #home img {
-        border-radius: 100%;
-    }
-    
-    #home .name {
-        text-align: center;
-    }
-    
-    #home .name h2 {
-        margin-bottom: 0.75rem;
-    }
-    
-    #home .name p {
-        opacity: 0.6;
-        font-style: italic;
-    }
-    
-    #photograph {
-        padding: 1rem;
-    }
-    
-    #photograph .items {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        /*padding: 2rem;*/
-    }
-    
-    #photograph .items .item img {
-        padding: 0.5rem;
-        border-radius: 2rem;
-    }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        h1 {
+            margin-left: 2rem;
+        }
+        
+        a {
+            text-decoration: none;
+            color: rgb(38, 47, 48);
+        }
+        
+        html {
+            font-family: "Open Sans", sans-serif;
+        }
+        /*navbar section*/
+        
+        #navbar {
+            color: rgb(114, 40, 121);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 4.5rem;
+        }
+        
+        #navbar ul {
+            /*genel link ayarları.. alt çizgi, yan yana yazma, ortalama*/
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            margin-right: 2rem;
+        }
+        
+        #navbar ul li a {
+            /*link ayarları.. birbirleri arasındaki mesafe*/
+            padding: 0.75rem;
+        }
+        
+        #navbar ul li a:hover {
+            /*link arka plan ayarları.. renk, border*/
+            background: #bed7f3;
+            border-radius: 45px;
+        }
+        /*home section*/
+        
+        #home {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            /*sectiona padding veriyor*/
+            /*border-bottom: 2px solid #d4c64a;*/
+        }
+        
+        #home img {
+            border-radius: 100%;
+        }
+        
+        #home .name {
+            text-align: center;
+        }
+        
+        #home .name h2 {
+            margin-bottom: 0.75rem;
+        }
+        
+        #home .name p {
+            opacity: 0.6;
+            font-style: italic;
+        }
+        
+        #photograph {
+            padding: 1rem;
+        }
+        
+        #photograph .items {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /*padding: 2rem;*/
+        }
+        
+        #photograph .items .item img {
+            padding: 0.5rem;
+            border-radius: 2rem;
+        }
+        
+        #contact {
+            padding: 1rem;
+        }
+        
+        #contact .contact-form {
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #contact .contact-form ul {
+            list-style-type: none;
+            display: flex;
+            margin-top: 1rem;
+            align-self: center;
+        }
+        
+        #contact .contact-form ul li a {
+            padding: 2rem;
+            font-size: 2rem;
+        }
+        
+        #contact .contact-form ul li a:hover {
+            opacity: 0.5;
+        }
